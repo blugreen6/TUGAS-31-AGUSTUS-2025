@@ -1,0 +1,15 @@
+# Ubah nilai ujian salah satu siswa di dictionary nilai_siswa, hapus data nilai siswa lain menggunakan pop(), lalu cetak dictionary hasilnya.
+
+nilai_siswa = {
+    "Tia": 83,
+    "Sahroni": 60,
+    "Utami": 88,
+    "Gabriel": 76,
+    "Jeri": 90
+}
+
+nilai_siswa["Utami"] = 95
+
+nilai_siswa.pop("Gabriel")
+
+print(nilai_siswa)
