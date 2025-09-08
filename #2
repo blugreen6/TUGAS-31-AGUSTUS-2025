@@ -1,0 +1,15 @@
+# Cetak nama siswa pertama dan terakhir dari list siswa, lalu cetak 3 siswa terakhir menggunakan slicing.
+
+siswa = ['Tia', 'Sahroni', 'Utami', 'GAbriel', 'Jeri']
+
+nilai_siswa = {'Tia' : 83,
+               'Sahroni' : 60,
+               'Utami' : 88,
+               'Gabriel' : 76,
+               'Jeri' : 90
+               }
+
+print("Siswa pertama:", siswa[0])
+print("Siswa terakhir:", siswa[-1])
+
+print("Nama 3 siswa terakhir:", siswa[-3:])
