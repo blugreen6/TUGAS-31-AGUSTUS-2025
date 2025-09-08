@@ -2,5 +2,5 @@
 
 siswa = ["Tia", "Sahroni", "Utami", "Gabriel", "Jeri"]
 
-for index, nama in enumerate(siswa):
+for index, nama in enumerate(siswa, start=1):
     print(index, nama)
