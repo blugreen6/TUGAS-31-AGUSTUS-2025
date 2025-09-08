@@ -1,0 +1,17 @@
+# Tambahkan satu nama siswa baru ke akhir list siswa, hapus satu siswa tertentu dari list, lalu cetak daftar siswa yang tersisa.
+
+siswa = ['Tia', 'Sahroni', 'Utami', 'GAbriel', 'Jeri']
+
+nilai_siswa = {'Tia' : 83,
+               'Sahroni' : 60,
+               'Utami' : 88,
+               'Gabriel' : 76,
+               'Jeri' : 90
+               }
+nilai_siswa ['Vabia'] : 93
+del nilai_siswa ['Utami']
+
+print("Siswa pertama:", siswa[0])
+print("Siswa terakhir:", siswa[-1])
+
+print("Nama 3 siswa terakhir:", siswa[-3:])
