@@ -1,0 +1,12 @@
+# Ganti key nama siswa tertentu di dictionary nilai_siswa menjadi nama baru, lalu cetak hasilnya. 
+
+nilai_siswa = {
+    "Tia": 83,
+    "Sahroni": 60,
+    "Utami": 95,
+    "Jeri": 90
+}
+
+nilai_siswa["Roni"] = nilai_siswa.pop("Sahroni")
+
+print(nilai_siswa)
