@@ -1,0 +1,6 @@
+# Gunakan suatu cara untuk mencetak index dan nama siswa dalam list siswa
+
+siswa = ["Tia", "Sahroni", "Utami", "Gabriel", "Jeri"]
+
+for index, nama in enumerate(siswa):
+    print(index, nama)
